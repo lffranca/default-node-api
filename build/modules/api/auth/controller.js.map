@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/modules/api/auth/controller.js"],"names":["login","req","res","status","json"],"mappings":";;;;;AAAO,IAAMA,wBAAQ,SAARA,KAAQ,CAACC,GAAD,EAAMC,GAAN;AAAA,SAAcA,IAAIC,MAAJ,CAAW,GAAX,EAAgBC,IAAhB,CAAqB,eAArB,CAAd;AAAA,CAAd","file":"controller.js","sourcesContent":["export const login = (req, res) => res.status(200).json(\"TEST DE API 2\"); "]}

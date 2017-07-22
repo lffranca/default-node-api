@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../src/lib/logger.js"],"names":["logger"],"mappings":";;;;;;AAAA;;AAEA,IAAMA,SAAS,wBAAf;;kBAEeA,M","file":"logger.js","sourcesContent":["import { getLogger } from 'log4js'\n\nconst logger = getLogger()\n\nexport default logger"]}

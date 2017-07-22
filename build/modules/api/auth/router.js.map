@@ -1,0 +1,1 @@
+{"version":3,"sources":["../../../../src/modules/api/auth/router.js"],"names":["router","get"],"mappings":";;;;;;AAAA;;AACA;;AAEA,IAAMA,SAAS,qBAAf;;AAEAA,OAAOC,GAAP,CAAW,GAAX;;kBAEeD,M","file":"router.js","sourcesContent":["import { Router } from 'express'\nimport { login } from './controller'\n\nconst router = new Router()\n\nrouter.get('/', login)\n\nexport default router"]}
