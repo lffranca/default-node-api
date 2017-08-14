@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../src/routes/api.js"],"names":["app","use"],"mappings":";;;;;;AAAA;;;;AACA;;;;;;AAEA,IAAMA,MAAM,wBAAZ;;AAEAA,IAAIC,GAAJ,CAAQ,OAAR;;kBAEeD,G","file":"api.js","sourcesContent":["import express from 'express'\nimport auth from '../modules/api/auth/router';\n\nconst app = express();\n\napp.use('/auth', auth);\n\nexport default app"]}

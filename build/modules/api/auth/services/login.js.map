@@ -1,1 +1,0 @@
-{"version":3,"sources":["../../../../../src/modules/api/auth/services/login.js"],"names":["verifyData","data"],"mappings":";;;;;AAAO,IAAMA,kCAAa,SAAbA,UAAa,CAACC,IAAD;AAAA,SAAUA,IAAV;AAAA,CAAnB","file":"login.js","sourcesContent":["export const verifyData = (data) => data;"]}
